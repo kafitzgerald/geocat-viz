@@ -7,15 +7,17 @@ Release Notes
 
 v2023.11.0 (Unreleased)
 -----------------------
-[Plain text summary here]
+
 
 Documentation
 ^^^^^^^^^^^^^
-* Invert y-axis in add_height_from_pressure_axis example by `Katelyn FitzGerald`_ in (:pr:`173`)
+* Invert y-axis in ``add_height_from_pressure_axis`` example by `Katelyn FitzGerald`_ in (:pr:`173`)
+* Additions to the examples gallery for ``set_titles_and_labels`` and ``set_axes_limits_and_ticks`` and updated thumbnail for ``plot_contour_labels`` by `Katelyn FitzGerald`_ in (:pr:`181`)
 
 Bug Fixes
 ^^^^^^^^^
 * Remove matplotlib version pin by `Katelyn FitzGerald`_ in (:pr:`177`)
+* Fix `extlinks` for compatibility with Sphinx 6 by `Katelyn FitzGerald`_ in (:pr:`180`)
 
 v2023.10.0 (October 3, 2023)
 ----------------------------
