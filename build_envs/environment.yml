@@ -1,18 +1,19 @@
 name: geocat_viz_build
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - cartopy
-  - make
   - matplotlib
-  - sphinx
   - cmaps
   - numpy
   - xarray
   - metpy
   - pint
+  - scikit-learn
+# testing
   - pytest
   - pytest-mpl
   - geocat-datafiles
+# formatting
   - pre-commit
-  - scikit-learn
