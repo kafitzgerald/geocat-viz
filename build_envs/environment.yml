@@ -13,7 +13,7 @@ dependencies:
   - pandas
   - pint
   - scikit-learn
-  - libfreetype<2.14
+  - harfbuzz
 # testing
   - pytest
   - pytest-mpl
