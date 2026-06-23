@@ -162,10 +162,11 @@ class TaylorDiagram(object):
         ax.axis["right"].major_ticklabels.set_axis_direction("left")
         ax.axis["right"].label.set_text("Standard deviation (Normalized)")
 
-        # Set font sizes, tick sizes, and padding
+        # Set font sizes, tick settings, and padding
         ax.axis['top', 'right'].label.set_fontsize(18)
         ax.axis['top', 'right', 'left'].major_ticklabels.set_fontsize(16)
         ax.axis['top', 'right', 'left'].major_ticks.set_ticksize(10)
+        ax.axis['top', 'right', 'left'].major_ticks.set_tick_direction("in")
         ax.axis['top', 'right', 'left'].major_ticklabels.set_pad(8)
         ax.axis['top', 'right'].label.set_pad(6)
 
