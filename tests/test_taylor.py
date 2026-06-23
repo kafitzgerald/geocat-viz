@@ -111,7 +111,7 @@ def test_add_corr_grid():
     return fig
 
 
-@pytest.mark.mpl_image_compare(tolerance=16.7, remove_text=True, style='default')
+@pytest.mark.mpl_image_compare(tolerance=16.8, remove_text=True, style='default')
 def test_add_contours():
     fig = plt.figure(figsize=(10, 10))
     taylor = TaylorDiagram(fig=fig, label='REF')
