@@ -166,7 +166,8 @@ class TaylorDiagram(object):
         ax.axis['top', 'right'].label.set_fontsize(18)
         ax.axis['top', 'right', 'left'].major_ticklabels.set_fontsize(16)
         ax.axis['top', 'right', 'left'].major_ticks.set_ticksize(10)
-        ax.axis['top', 'right', 'left'].major_ticks.set_tick_direction("in")
+        if mpl_version in SpecifierSet(">=3.11", prereleases=True):
+            ax.axis['top', 'right', 'left'].major_ticks.set_tick_direction("in")
         ax.axis['top', 'right', 'left'].major_ticklabels.set_pad(8)
         ax.axis['top', 'right'].label.set_pad(6)
 
