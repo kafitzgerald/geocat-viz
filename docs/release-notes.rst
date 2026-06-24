@@ -11,6 +11,7 @@ This release...
 
 Testing
 ^^^^^^^
+* Increase image test tolerances to support Matplotlib 3.11 by `Katelyn FitzGerald`_ in (:pr:`363`)
 * Manually specify contour levels in tests by `Katelyn FitzGerald`_ in (:pr:`321`)
 
 Documentation
